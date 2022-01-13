@@ -1,6 +1,6 @@
 <?php
 
-// header("Content-type:application/json");
+header("Content-type:application/json");
 
 $body = $_SERVER['REQUEST_METHOD'] === 'POST' || $_SERVER['REQUEST_METHOD'] === 'PUT' ? Utils::getBodyData() : '';
 
